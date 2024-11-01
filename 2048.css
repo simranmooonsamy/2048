@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+hr {
+  width: 500px;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  background-color: #80adc4;
+  border: 6px solid #6baed1;
+
+  margin: 0 auto;
+  display: flex; /*makes sure the tiles are 4 in each row instead of stacking one on top of the other*/
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 90px;
+  height: 90px;
+  border: 5px solid #6baed1;
+
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*colored tiles*/
+.x2 {
+  background-color: #8dbfd9;
+  color: #535759;
+}
+.x4 {
+  background-color: #508199;
+  color: #36393b;
+}
+.x8 {
+  background-color: #3a718c;
+  color: white;
+}
+.x16 {
+  background-color: #2c5b73;
+  color: white;
+}
+
+.x32 {
+  background-color: #224e63;
+  color: white;
+}
+.x64 {
+  background-color: #15465e;
+  color: white;
+}
+.x128 {
+  background-color: #0f3a4f;
+  color: white;
+}
+.x256 {
+  background-color: #072c3d;
+  color: white;
+}
+.x512 {
+  background-color: #052636;
+  color: white;
+}
+.x1024 {
+  background-color: #032433;
+  color: white;
+}
+.x2048 {
+  background-color: #021c29;
+  color: white;
+}
+.x4096 {
+  background-color: #011621;
+  color: white;
+}
+.x8192 {
+  background-color: #010c12;
+  color: white;
+}
